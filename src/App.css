@@ -100,6 +100,12 @@ nav {
   border-radius: 6px;
   border: 1px solid rgba(217, 217, 217, 1);
 }
+@media (max-width: 466px) {
+  .flexForm input {
+  width: 280px !important;
+}
+}
+
 .flexForm button {
   display: flex;
   align-items: center;

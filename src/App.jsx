@@ -21,7 +21,7 @@ import { useState, useEffect } from "react";
 export default function App() {
   const users = [
     { email: "a", password: "a" },
-    { email: "user@example.com", password: "5678" },
+    { email: "alisher@gmail.com", password: "1234" },
   ];
 
   const [email, setEmail] = useState("");
